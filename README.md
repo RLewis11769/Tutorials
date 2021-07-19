@@ -2,15 +2,21 @@
 
 ## Description
 
-Following along with tutorials found in books and on the internet
+Following along with tutorials in books and on the internet
+
+## Structure
+
+### Coding Train
+    - JavaScript
 
 ## Notes
 
-- Some code will be:
+- Code will fall into the categories:
     - My solutions to challenges
         - aka original
     - Interesting solutions to challenges
-        - aka mine and non-original solutions
+        - aka multiple solutions that do the same thing
+        - Original and non-original
     - Simple following of tutorials
         - aka not original except where indicated
 - All code will be:
