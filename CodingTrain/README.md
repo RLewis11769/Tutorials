@@ -2,26 +2,54 @@
 
 ## Description
 
-The Coding Train (on YouTube [here](https://www.youtube.com/c/TheCodingTrain)) typically uses the p5.js library to visualize code. Because it uses a prebuilt library by default, the found is not executable outside of the p5.js Web Editor and must be copied over.
+The Coding Train (on YouTube [here](https://www.youtube.com/c/TheCodingTrain)) is a YouTube JavaScript instructor whose teaching style I appreciate.
 
-Basic code is primarily not original except where otherwise noted. The point is just to get more practice with JavaScript syntax in a visual and therefore easily-understandable manner.
+Some files use vanilla JavaScript. They range in subject but primarily cover DOM manipulation and APIs. The point of these files is simply to get more practice with JavaScript and experiment with subjects and libraries not covered by school projects.
+
+Some files use the p5.js library to visualize code. Because these files use a prebuilt library by default, the code is not executable outside of the [p5.js Web Editor](https://editor.p5js.org/) and must be copied over. The point of these files is to get more practice with JavaScript syntax in a visual and therefore easily-understandable manner.
+
+Basic code is not original except where otherwise noted. The point is just to get more comfortable with JavaScript and to serve as a reference.
 
 ## Navigation
 
+## Vanilla JavaScript
+
+### postPic
+
+Add locally-stored picture to DOM using:
+- ES6 promise
+- ES8 async/await
+
+### postGraph
+
+Add locally-stored graph (.csv file) to DOM using Chart.js library
+
+### mapISS
+
+Pull ISS location data from wheretheiss.at and map its location using Leaflet library
+
+### serverSide
+
+jkjfdkaj
+
+
+
+## p5.js Library
+
 ### Bubbles
-- Requires p5.js Web Editor
-- JavaScript basics in a visual format
-##### filledCircleLoop.js
-    - Basic program to remind myself of the infinite nature of draw()
-    - Pretty idk
-##### bubblePop_Game.js
-    - Playing around with classes
-    - A game
-        - Can you pop all the bubbles? If you miss, a new one appears!
-        - Rules: Delete all the bubbles idk
-        - The either/or logic for deleting or creating bubbles is mine (aka the game part)
-        - Some of the color-changing logic is mine. It was surprisingly difficult and I'm taking credit
 
-## Usage
+Basic looping program
+- filledCircleLoop.js
 
-Copy code into p5.js Web Editor [here](https://editor.p5js.org/).
+Semi-original game to create and pop bubbles (based on bubble pop design)
+- bubblePop_Game.js
+
+### wordnik_giphy
+
+Generate random word using wordnik API and post picture associated with word from giphy API (two ways)
+- asyncAPI.js
+- promisesAPI.js
+
+## Credit
+
+Original projects designed by [Daniel Shiffman](https://github.com/CodingTrain)
