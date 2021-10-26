@@ -22,10 +22,10 @@ Note: I should not be sharing my API keys on the internet. They are private. But
 
 ## Navigation
 
-#### asyncAPI.js
+### asyncAPI.js
 - Using async/await
 
-#### promisesAPI.js
+### promisesAPI.js
 - Using/catching promises
 
 ## Credit

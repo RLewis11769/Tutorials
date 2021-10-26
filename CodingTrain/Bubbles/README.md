@@ -2,7 +2,7 @@
 
 ## Description
 
-JavaScript basics in a visual format using P5.js library
+JavaScript basics in a visual format using p5.js library
 
 ## Usage
 
