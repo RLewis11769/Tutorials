@@ -3,10 +3,12 @@
 ## Description
 
 4 ways to add to the DOM
-- renderWithStrings aka Element.innerHTML
-- renderWithCreateElement aka Element.appendChild(Element)
-- renderWithJQStrings aka JQuery.append(string)
-- renderWithJQElements aka JQuery.append(JQuery)
+- Vanilla JS
+	- renderWithStrings aka Element.innerHTML
+	- renderWithCreateElement aka Element.appendChild(Element)
+- jQuery
+	- renderWithJQStrings aka JQuery.append(string)
+	- renderWithJQElements aka JQuery.append(JQuery)
 
 ## Includes
 
