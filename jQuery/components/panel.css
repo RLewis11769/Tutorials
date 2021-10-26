@@ -1,0 +1,27 @@
+li {
+	list-style-type: none;
+	display: inline-block;
+	background: darkgray;
+	border-radius: 10px 10px 0 0;
+	width: 100px;
+	text-align: center;
+	padding: 5px;
+}
+
+li:hover {
+	background: blueviolet;
+}
+
+li.active {
+	background: dimgray;
+}
+
+.panel {
+	display: none;
+	margin: 0 50px;
+}
+
+.panel.active {
+	display: block;
+	margin: 0 50px;
+}

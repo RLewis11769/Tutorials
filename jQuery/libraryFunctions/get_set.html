@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="get_set.js"></script>
+	<title>Getting/Setting Text/HTML/Attr/CSS</title>
+	<style>
+		.class {
+			color: purple;
+		}
+
+		.secondClass {
+			background-color: palevioletred;
+		}
+
+		.thirdClass {
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Using .text() -->
+	<p id="t1">This is the p that uses a variable and text</p>
+	<p id="t2">This text will be replaced by hello world on click</p>
+	<button id="btn1">Click me for text() demo</button>
+	<br><br>
+
+	<!-- Using .html() -->
+	<p id="h1">This is the <b>p</b> that has html tags</p>
+	<p id="h2">This text will be replaced by hello world on click</p>
+	<button id="btn2">Click me for html() demo</button>
+	<br><br>
+
+	<!-- Using .val() -->
+	<br>
+	<label for="v1">This is the val() input</label>
+	<input type="text" id="v1" value="Hello world">
+	<br><br>
+	<label for="v2">This value will be changed on click</label>
+	<input type="text" id="v2" value="Replace me!">
+	<br><br>
+	<button id="btn3">Click me for val() demo</button>
+	<br><br>
+
+	<!-- Using .attr() -->
+	<p id="a1" class="bold italic" class="bold" hello="Hola">This is the p that has attributes</p>
+	<p id="a2">This text will add a class that changes its color</p>
+	<button id="btn4">Click me for attr() demo</button>
+	<br><br>
+
+	<!-- Using .css() -->
+	<p id="c1">This is the p that does not have style</p>
+	<p id="c2">This text that will add color using css</p>
+	<button id="btn5">Click me for css() demo</button>
+
+</body>
+
+</html>

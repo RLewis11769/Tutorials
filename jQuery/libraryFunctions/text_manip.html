@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="text_manip.js"></script>
+	<title>Text Manipulation and Removing/Emptying Examples</title>
+	<style>
+		.border {
+			border: 3px solid green;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="border end">
+		<!-- Append to end of element -->
+		<button id="btn1">Click Me to append</button>
+		<br>
+		<!-- Add after element -->
+		<button id="btn2">Click Me to add after</button>
+	</div>
+	<br>
+	<div class="border begin">
+		<!-- Prepend to beginning of element -->
+		<button id="btn3">Click Me to prepend</button>
+		<br>
+		<!-- Add before element -->
+		<button id="btn4">Click Me to add before</button>
+	</div>
+	<br>
+
+	<div class="border remove">
+		<!-- Two ways to remove element -->
+		<p id="p">This is some content inside the div</p>
+		<p>This is more content to show selector</p>
+		<button id="btn5">Click Me to remove p</button>
+		<br>
+		<button id="btn6">Click Me to remove div</button>
+	</div>
+	<br>
+	<div class="border empty">
+		<!-- Empty content from element -->
+		<p>This is some content inside the div</p>
+		<button id="btn7">Click Me to empty content from element</button>
+	</div>
+
+</body>
+
+</html>
