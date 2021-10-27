@@ -17,6 +17,27 @@ typedef struct listint_s
 } listint_t;
 
 /**
+ * newNode - creates new node unconnected to list
+ * @data: data to be stored in node
+ * Return: pointer to new node
+ */
+listint_t *newNode(int data)
+{
+	listint_t *new = NULL;
+
+	/* Create new node */
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
+		return (NULL);
+
+	/* Assign data to new node */
+	new->n = data;
+	new->next = NULL;
+
+	return (new);
+}
+
+/**
  * create_list_from_array - creates linked list from array of integers
  * @array: array to convert to linked list
  * @size: size of array
@@ -42,27 +63,6 @@ listint_t *create_list_from_array(int *array, size_t size)
 		list = node;
 	}
 	return (list);
-}
-
-/**
- * newNode - creates new node unconnected to list
- * @data: data to be stored in node
- * Return: pointer to new node
- */
-listint_t *newNode(int data)
-{
-	listint_t *new = NULL;
-
-	/* Create new node */
-	new = malloc(sizeof(listint_t));
-	if (new == NULL)
-		return (NULL);
-
-	/* Assign data to new node */
-	new->n = data;
-	new->next = NULL;
-
-	return (new);
 }
 
 /**

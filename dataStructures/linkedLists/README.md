@@ -13,9 +13,11 @@ Additionally, some sorting algorithms, mandatory and advanced, use linked lists,
 ### linkedList.h
 - Header including:
 	- struct definition
-	- Creation of node function
-	- Tree freeing function
-	- Printing functions (currently preorder only)
+	- Creation of new node in list function
+	- Creation of list from array function
+	- Add node to beginning of linked list function
+	- Printing function
+	- Freeing function
 
 ### deleteNtoLast.c
 - Practice problem to delete Nth to last node
