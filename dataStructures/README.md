@@ -11,7 +11,10 @@ All problems will be in C, will use an included header file, and will feature no
 ### Binary Trees
 
 - array_to_binary.c
+- find_x_largest_value.c
+- find_x_smallest_value.c
 - print_tree_rep.c
+- tree_to_balanced.c
 
 ### Linked Lists
 
