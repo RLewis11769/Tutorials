@@ -65,4 +65,19 @@ void print_preorder(node *root)
 	print_preorder(root->right);
 }
 
+/**
+ * print_inorder - recursively prints tree in order
+ * @root: pointer to root of tree
+ */
+void print_inorder(node *root)
+{
+	if (root == NULL)
+		return;
+
+	/* Prints all left values then all right values */
+	print_inorder(root->left);
+	printf("%d ", root->value);
+	print_inorder(root->right);
+}
+
 #endif
